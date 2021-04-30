@@ -7,8 +7,9 @@ It is an ESP8266 board "wifi_fixer" for changing the Wifi setting of Raspberry P
 ![wifi_fixer](image/wifi_fixer3.jpg) ![wifi_fixer](image/wifi_fixer4.jpg)
 
 ## How does it work?
-Wifi_fixer acts as an independent wifi access point. When you connect to this access point with your smartphone
-Display the menu using the built-in web server. Enter the SSID / PASS of the external access point through this menu.
+Wifi_fixer acts as an independent wifi access point. 
+When you connect to this access point with your smartphoneDisplay the menu using the built-in web server. 
+Enter the SSID / PASS of the external access point through this menu.
 ![wifi_fixer5](image/wifi_fixer5.jpg)
 ![wifi_fixer6](image/wifi_fixer6.jpg)
 
