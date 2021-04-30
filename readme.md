@@ -2,26 +2,25 @@
 ![wifi_fixer](image/wifi_fixer1.jpg)
 
 ## What is this?
-It is an ESP8266 board "wifi_fixer" for changing the Wifi setting of Raspberry Pi from the outside using a smartphone.
+"wifi_fixer" is an ESP8266 board for changing the Wifi-setting of Raspberry Pi from the outside using a smartphone.
 
 ![wifi_fixer](image/wifi_fixer3.jpg) ![wifi_fixer](image/wifi_fixer4.jpg)
 
 ## How does it work?
 Wifi_fixer acts as an independent wifi access point. 
-When you connect to this access point with your smartphoneDisplay the menu using the built-in web server. 
+When you connect to this, the module show this by web browser. 
 Enter the SSID / PASS of the external access point through this menu.
 ![wifi_fixer5](image/wifi_fixer5.jpg)
 ![wifi_fixer6](image/wifi_fixer6.jpg)
 
 
-With Raspberry Pi, serial communication is performed using / dev / serial0 through the Tx / RX pin.
+Raspberry Pi connect by  "/dev/serial0" (PIN:Tx RX)
 
 ### wifi_fixer.py
-- Check if Wifi is available
-- Inquire the wifi_fixer module by serial communication and check if SSID / PASS is entered.
-- When a new SSID / PASS is entered, add it to /etc/wpa_supplicant/wpa_supplicant.conf
-- Restart the raspberry pie
-
+- Check Wifi is available
+    - wifi_fixer module wait enter new SSID / PASS 
+    - new SSID / PASS is entered, add to /etc/wpa_supplicant/wpa_supplicant.conf
+    - Restart the raspberry pi
 
 ## Limits
 --Only 2.4GHz wifi can be detected.
