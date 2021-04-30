@@ -10,6 +10,7 @@
 Wifi_fixer acts as an independent wifi access point. 
 When you connect to this, the module show this by web browser. 
 Enter the SSID / PASS of the external access point through this menu.
+
 ![wifi_fixer5](image/wifi_fixer5.jpg)
 ![wifi_fixer6](image/wifi_fixer6.jpg)
 
